@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        img {
+            height: 600px;
+        }
+
+        nav a:hover {
+            border-style: solid;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+
+        .banner-content {
+            position: relative;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            overflow: hidden;
+            margin-bottom: 12%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .navbar {
+            height: 60px;
+            width: 100%;
+            background: white;
+        }
+
+        .navbar ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            padding: 6px 13px;
+            transition: .4s;
+        }
+
+        .logo {
+            width: 125px;
+            height: 65px;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="border-style: none;">
+                <img class="logo"
+                    src="https://img.collegedekhocdn.com/media/img/institute/logo/dsi_logo.png">
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.dsatm.edu.in/about/about-dsatm"
+                            target="_blank">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://dsatm.edu.in/index.php/faq"
+                            target="_blank">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://dsatm.edu.in/" target="_blank">DSATM Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://dsatm.edu.in/contact"
+                            target="_blank">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.redd.it/lc1jwfmzfn761.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.coexcenter.com/wp-content/uploads/2018/11/venue-auditorium-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2490&q=80" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="banner_content centered">
+        <h1 style="text-overflow: inherit; overflow: hidden; 
+            white-space: nowrap;"><strong>Welcome to DSATM Course Registration</strong> </h1>
+        <h3 style="margin-left: 75px;">Department : Information Science and Engineering</h3>
+        <h5 style="margin-left: 180px;">Login to continue with Course Registration</h5>
+        <a href="Login.html"><button type="button" class="btn btn-danger"
+                style="margin-left: 335px; padding-left: 20px; padding-right: 20px;"><strong>Login</strong></button></a>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-top: 20px; margin-bottom: 100px;">
+            <div class="card" style="width: 25rem; height: 380px; margin-left: 35px;">
+                <iframe style="margin-top: 15px; height: inherit; margin-bottom: 15px;"
+                 src="https://www.youtube.com/embed/9vFz6QHRZqM" title="YouTube video player" frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen></iframe>
+                
+            </div>
+            <div class="card" style="width: 25rem; height: 380px; margin-left: 25px;">
+                <iframe style="margin-top: 15px; height: inherit; margin-bottom: 15px;"
+                src="https://www.youtube.com/embed/sAbfFEF44mk" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+            <div class="card" style="width: 25rem; height: 380px; margin-left: 25px;">
+                <iframe style="margin-top: 15px; height: inherit; margin-bottom: 15px;"
+                src="https://www.youtube.com/embed/SiCCQLm0GIw" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- <div style="margin-bottom: 50px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.2801700929917!2d77.51184141484849!3d12.825163521544583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae41057dd66abf%3A0xfda823a3ca1775ea!2sDayananda%20Sagar%20Academy%20of%20Technology%20and%20Management%20(DSATM)!5e0!3m2!1sen!2sin!4v1638374188870!5m2!1sen!2sin" 
+        width="1800px" height="450" style="border:0;" allowfullscreen="" 
+        loading="lazy"></iframe>
+    </div> -->
+
+
+    <div class="footer">
+        <p>©️ 2021 Copyrights @ DSATM. All rights reserved.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
